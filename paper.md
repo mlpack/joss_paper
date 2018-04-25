@@ -55,7 +55,7 @@ Therefore, the development of new algorithms for the continued growth of the
 field depends largely on the existence of good tooling and libraries that enable
 researchers and practitioners to quickly prototype and develop solutions
 [@sonnenburg2007need].  Simultaneously, useful libraries must also be efficient
-and well-implemented.  This has motivated our development of {\bf mlpack}.
+and well-implemented.  This has motivated our development of mlpack.
 
 mlpack is a flexible and fast machine learning library written in C++ that has
 bindings that allow use from the command-line and from Python, with support for
@@ -69,7 +69,7 @@ available to other languages, which allow easy use of the fast mlpack codebase.
 
 For fast linear algebra, mlpack is built on the Armadillo C++ matrix library
 [@sanderson2016armadillo], which in turn can use an optimized BLAS
-implementation such as OpenBLAS [@xianyi2016openblas] or even NVBLAS
+implementation such as OpenBLAS [@xianyi2018openblas] or even NVBLAS
 [@nvblas] which would allow mlpack algorithms to be run on the GPU.  In
 order to provide fast code, template metaprogramming is used throughout the
 library to reduce runtime overhead by performing any possible computations and
